@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "service": "GHS"
+  },
+  {
+    "id": 2,
+    "service": "George"
+  },
+  {
+    "id": 3,
+    "service": "BTC"
+  },
+  {
+    "id": 4,
+    "service": "ScanGoClassic"
+  },
+  {
+    "id": 5,
+    "service": "ScanGoMobile"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "status": "OK",
+  "profileId": "e3cd2e7c-7805-49fb-923a-a0b6456c8406",
+  "profile": {
+    "basic": {
+      "email": "saruchi.aggarwal@walmartlabs.com",
+      "marketingPreference": "y",
+      "tnc": "y"
+    },
+    "additionalInfo": {
+      "firstname": "Saruchi",
+      "lastname": "Aggarwal",
+      "gender": "f",
+      "isActive": "y",
+      "lastLoginAt": 1589353455224,
+      "lastMktPrefUpdateAt": 1585907011008,
+      "createdDate": 1585907011009,
+      "associate": {
+        "is_active": true
+      }
+    },
+    "tnc": [
+      {
+        "id": "adb28f5b-216c-4c10-a30d-4f732ec058d7",
+        "service": "GHS",
+        "acceptance": "y"
+      },
+      {
+        "id": "adb28f5b-216c-4c10-a30d-4f732ec058d6",
+        "service": "George",
+        "acceptance": "y"
+      },
+      {
+        "id": "adb28f5b-216c-4c10-a30d-4f732ec058d5",
+        "service": "ScanGoClassic",
+        "acceptance": "y"
+      }
+    ]
+  },
+  "addresses": [
+    {
+      "addressId": "0321f468-43d1-40f8-b12d-0106ddef3b26",
+      "line1": "1 Wall Street",
+      "addressType": "home",
+      "type": "shipTo",
+      "city": "Liverpool",
+      "country": "GB",
+      "default": "y",
+      "latitude": "53.4045893",
+      "longitude": "-2.9875307",
+      "postcode": "L18JQ",
+      "validation": {
+        "status": "Close match",
+        "provider": "AFD",
+        "description": "Address validation done"
+      },
+      "formattedAddress": "1 Wall Street, Liverpool, L18JQ"
+    }
+  ],
+  "linkedApps": [],
+  "contacts": [
+    {
+      "contactType": "EMAIL",
+      "contact": "saruchi.aggarwal@walmartlabs.com",
+      "emailContentType": "HTML",
+      "contactMasked": "sar***@walmartlabs.com",
+      "contactId": "545bdb6d-3115-4183-990e-99c0e3eda8c2",
+      "default": "y"
+    }
+  ],
+  "memberships": [],
+  "profileAttributes": [],
+  "preferences": [
+    {
+      "preference_id": "901b8c99-d53c-4ef0-83c3-b43537d33817",
+      "preference_type": "EMAIL",
+      "preference_value": "y",
+      "contact_reference_id": "e3cd2e7c-7805-49fb-923a-a0b6456c8406",
+      "opt_out_reason": "Permission Change"
+    }
+  ],
+  "cards": []
+}
