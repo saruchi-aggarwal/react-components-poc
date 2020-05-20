@@ -20,7 +20,6 @@ export default () => {
             onChange={date => handleChange(date)}
             name="startDate"
             dateFormat="dd/MM/yyyy"
-            className="date-picker--default"
           />
         </div>
         <div className="col-sm height-60">
@@ -30,7 +29,7 @@ export default () => {
             onChange={date => handleChange(date)}
             name="startDate"
             dateFormat="dd/MM/yyyy"
-            className="date-picker--default date-picker--focus"
+            className="date-picker--focus"
           />
         </div>
         <div className="col-sm height-60">
@@ -40,7 +39,7 @@ export default () => {
             onChange={date => handleChange(date)}
             name="startDate"
             dateFormat="dd/MM/yyyy"
-            className="date-picker--default date-picker--hover"
+            className="date-picker--hover"
           />
         </div>
         <div className="col-sm height-60">
@@ -50,7 +49,7 @@ export default () => {
             onChange={date => handleChange(date)}
             name="startDate"
             dateFormat="dd/MM/yyyy"
-            className="date-picker--default date-picker--error"
+            className="date-picker--error"
           />
         </div>
       </div>
