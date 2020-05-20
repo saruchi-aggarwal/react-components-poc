@@ -3,3 +3,7 @@
   font-size: 45px;
   font-weight: 100px;
 }
+
+h3 {
+  border-bottom: 1px solid #dadada;
+}
