@@ -1,34 +1,44 @@
 import React from "react";
 import Header from "../../components/header";
-import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
-import { getDaysElapsedSinceJoining, daysToNextAnniversary } from "./dataUtils";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {
+  ColleagueInfo,
+  DaysToAnniversary,
+  HappyAnniversary,
+  ActiveServices,
+} from "./components";
 import "./milestones.css";
 
-export default () => {
-  const [days] = React.useState(getDaysElapsedSinceJoining());
+const Items = [
+  "Personal details",
+  "Sign in details",
+  "Address & phone book",
+  "Wallet"
+];
 
+export default () => {
   return (
     <div className="container">
       <Header componentName="Milestones" />
-      <br />
-      <div className="row">
-        <div className="col-sm-2">
-          <CircularProgressbar
-            value={days}
-            text={`${days} days`}
-            minValue={1}
-            maxValue={365}
-          />
+      <div className="row justify-content-center co-account">
+        <div className="col-sm-12 align-self-start co-account__title">
+          Account Settings
         </div>
-        <div className="col-sm-6">
-          <span>
-            It has been {getDaysElapsedSinceJoining()} days since you've been a
-            member
-          </span>
-          <br />
-          <span>Upcoming Anniversary in {daysToNextAnniversary()} days</span>
+        <div className="col-sm-12 co-account__description">
+          Select a section below to see and edit your details
         </div>
+        <DaysToAnniversary />
+        <HappyAnniversary />
+        <ColleagueInfo />
+        <ActiveServices />
+        {Items.map(item => (
+          <div className="panel row align-items-center justify-content-between">
+            <div>
+              <span className="panel-text">{item}</span>
+            </div>
+            <div className="panel-btn">View</div>
+          </div>
+        ))}
       </div>
     </div>
   );

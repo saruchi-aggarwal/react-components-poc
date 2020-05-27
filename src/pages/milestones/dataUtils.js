@@ -6,6 +6,8 @@ export const PROFILE_CREATED_TIME = new Date(
   profile.profile.additionalInfo.createdDate
 );
 
+export const activeServices = profile.profile.tnc;
+
 export const getTimeElapsed = (time1, time2) =>
   Math.abs(time1.getTime() - time2.getTime());
 

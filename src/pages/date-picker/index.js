@@ -1,18 +1,18 @@
 import React from 'react';
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from '../../components/header';
 import "./date-picker.css";
 
 export default () => {
-  const [startDate, handleChange] = React.useState(new Date());
+  // const [startDate, handleChange] = React.useState(new Date());
 
   return (
     <div className="container">
       <Header componentName='Date-picker' />
       <br/>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-sm height-60">
           <label>Default: </label>
           <DatePicker
@@ -52,7 +52,7 @@ export default () => {
             className="date-picker--error"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
