@@ -10,7 +10,6 @@ export default () => (
           We are happy to be a part of your life
         </span>
       </div>
-      <div className="col-sm-2 panel-btn">View</div>
     </div>
   </div>
 );

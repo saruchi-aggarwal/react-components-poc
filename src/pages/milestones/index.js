@@ -27,9 +27,9 @@ export default () => {
         <div className="col-sm-12 co-account__description">
           Select a section below to see and edit your details
         </div>
+        <ColleagueInfo />
         <DaysToAnniversary />
         <HappyAnniversary />
-        <ColleagueInfo />
         <ActiveServices />
         {Items.map(item => (
           <div className="panel row align-items-center justify-content-between">
